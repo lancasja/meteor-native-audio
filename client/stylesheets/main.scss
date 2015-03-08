@@ -1,0 +1,20 @@
+$light-color: rgba(0, 0, 0, 0.2);
+
+body {
+	padding: 1em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #333;
+	font-weight: 300;
+}
+
+section {
+
+	&:not(:last-child) {
+		border-bottom: 2px dashed $light-color;
+	}
+
+	h2 {
+		color: $light-color;
+	}
+}
